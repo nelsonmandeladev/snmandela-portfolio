@@ -1,0 +1,40 @@
+{
+  "name": "portefolio-2025",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rasengan dev",
+    "build": "rasengan build",
+    "serve": "rasengan-serve ./dist",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@rasenganjs/image": "^1.0.0",
+    "@rasenganjs/serve": "^1.0.0",
+    "@tailwindcss/vite": "^4.*",
+    "rasengan": "^1.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
+    "prettier": "3.5.3",
+    "typescript": "^5.1.3",
+    "typescript-eslint": "^8.31.1",
+    "vite": "^6.2.6"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
