@@ -11,9 +11,11 @@ export default function Template({ Head, Body, Script }: TemplateProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
-      <Body>
-        <Script />
-      </Body>
+      <React.Fragment>
+        <Body>
+          <Script />
+        </Body>
+      </React.Fragment>
     </html>
   );
 }
