@@ -1,11 +1,10 @@
 /* Load Urbanist and Comfortaa font */
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Urbanist:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #2a7fff;
-  --color-border: #eee;
+  --color-primary: #00b2ff;
+  --color-body: #999999;
 
   --font-urbanist: Urbanist, sans-serif;
   --font-comfortaa: Comfortaa, sans-serif;
@@ -19,4 +18,7 @@ html {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--color-body);
 }
