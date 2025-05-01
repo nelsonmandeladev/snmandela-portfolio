@@ -1,12 +1,20 @@
 import React from "react";
 
 import { PageComponent } from "rasengan";
-import { HeroSection } from "@/components";
+import {
+  AboutSection,
+  HeroSection,
+  ServicesSection,
+  WorkHistory,
+} from "@/components";
 
 const Home: PageComponent = () => {
   return (
     <React.Fragment>
       <HeroSection />
+      <AboutSection />
+      <WorkHistory />
+      <ServicesSection />
     </React.Fragment>
   );
 };
