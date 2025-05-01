@@ -1,5 +1,3 @@
-import React from "react";
-
-export default function SkillSection() {
+export function SkillSection() {
   return <div>SkillSection</div>;
 }
